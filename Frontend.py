@@ -2,7 +2,7 @@
 
 from tkinter import *
 import tkinter.messagebox
-import MiniProject_Backend
+import Backend
 
 class Movie:
 	def __init__(self, root):
@@ -150,7 +150,7 @@ class Movie:
 
 		self.lblRating=Label(DFrameL, font=('Arial', 18, 'bold'), text="Rating (Out of 5):", padx=2, pady=2, bg="black", fg="orange")
 		self.lblRating.grid(row=7, column=0, sticky=W) 
-		self.txtRating==Entry(DFrameL, font=('Arial', 18, 'bold'), textvariable=Rating, width=39, bg="black", fg="white")
+		self.txtRating=Entry(DFrameL, font=('Arial', 18, 'bold'), textvariable=Rating, width=39, bg="black", fg="white")
 		self.txtRating.grid(row=7, column=1)
 
 		#ListBox & ScrollBar
