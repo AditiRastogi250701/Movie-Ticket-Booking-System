@@ -37,8 +37,4 @@ To clear the entries given by the users.
 To exit the application.
 
 
-![image](https://user-images.githubusercontent.com/72125549/164365514-834a8f5f-33b6-4efc-bb62-e4e75c2a6fa7.png)
-
-![image](https://user-images.githubusercontent.com/72125549/164365377-5a1ffea5-6c23-45d9-9bb1-2e7104470563.png)
-
 <img src = "1.jpeg">
