@@ -37,4 +37,6 @@ To clear the entries given by the users.
 To exit the application.
 
 
+
+## PREVIEW
 <img src = "1.jpeg">
