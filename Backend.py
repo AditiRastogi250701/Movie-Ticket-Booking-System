@@ -2,8 +2,10 @@
 import sqlite3
 
 def MovieData():
+    
     con=sqlite3.connect("movie1.db") 
     cur=con.cursor()
+
     cur.execute("CREATE TABLE IF NOT EXISTS book (id INTEGER PRIMARY KEY, Movie_ID text,Movie_Name text,Release_Date text,Director text,Cast text,Budget text,Duration text,Rating text")
     con.commit()
     con.close()
@@ -18,6 +20,17 @@ def AddMovieRec(Movie_ID,Movie_Name,Release_Date,Director,Cast,Budget,Duration,R
 def ViewMovieData():
     con=sqlite3.connect("movie1.db")    
     cur=con.cursor()
+    # cur.execute(""" CREATE TABLE book (
+    # id integer,
+    # Movie_ID text,
+    # Movie_Name text,
+    # Release_Date text,
+    # Director text,
+    # Cast text,
+    # Budget text,
+    # Duration text,
+    # Rating text
+    # )""")
     cur.execute("SELECT * FROM book")
     rows=cur.fetchall()
     con.close()    
